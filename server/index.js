@@ -2,7 +2,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const posts = require("./routes/api/posts");
-const mongoose = require("mongoose");
 const app = express();
 
 // Body-parser middleware
