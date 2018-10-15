@@ -49,3 +49,6 @@ npm run lint
 
 <h1>When user click on the delete icon. It wil remove from the list as well as from the DB.<br/>
 <img src="./client/snaps/3.JPG"><br/>
+
+# Notice
+I have ignored my <strong>config/keys.js</strong> So you can add your own DB for storing the post.
