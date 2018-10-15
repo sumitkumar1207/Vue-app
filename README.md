@@ -1,12 +1,12 @@
-#Step1: Download or Clone the project.
+# Step1: Download or Clone the project.
 
-#Step2: NPM install (It will install all the dependencies of the backend.)
+# Step2: NPM install (It will install all the dependencies of the backend.)
 
-#Step3: cd client and follow the following instructions-
+# Step3: cd client and follow the following instructions-
 
 # client
 
-#Step4:
+# Step4:
 
 ## Project setup
 
@@ -14,7 +14,7 @@
 npm install
 ```
 
-#Step4:
+# Step4:
 
 ### Compiles and hot-reloads for development
 
@@ -40,11 +40,15 @@ npm run test
 npm run lint
 ```
 
-#Snaps of the App. 1.
-<img src="./client/snaps/1.JPG">
+# Snaps of the App. 
+1.<br/>
+<h1>Loading All the posts of the app</h1>.<br/>
+<img src="./client/snaps/1.JPG"><br/>
 
-2.
-<img src="./client/snaps/2.JPG">
+2.<br/>
+<h1>A little bit CSS helps app to look good.</h1><br/>
+<img src="./client/snaps/2.JPG"><br/>
 
-3.
-<img src="./client/snaps/3.JPG">
+3.<br/>
+<h1>When user click on the delete icon. It wil remove from the list as well as from the DB.<br/>
+<img src="./client/snaps/3.JPG"><br/>
