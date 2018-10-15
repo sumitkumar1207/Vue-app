@@ -1,11 +1,12 @@
 <template>
  <div class="container">
    <h1>Latest Posts</h1>
-   <!-- Create Post Here -->
    <div class="create-post">
      <label for="create-post" class="create-post">Say Something:</label>
-     <input type="text" id="create-text" v-model="text" placeholder="Create a post." />
-     <button v-on:click="createPost">Post!</button>
+      <form v-on:submit="createPost">
+     <input type="text" id="create-text" v-model="text" placeholder="Create a post." required /> &emsp;
+     <button type="submit" value="submit" class="btn btn-light btn-outline-secondary button2">Post!</button>
+     </form>
    </div>
    <hr>
    <p class="error" v-if="error">{{error}}</p>
@@ -15,10 +16,14 @@
      v-bind:item="post"
      v-bind:index="index"
      v-bind:key="post._id"
-     v-on:dblclick="deletePost(post._id)"
      >
-     {{`${post.createdAt.getDate()}/${post.createdAt.getMonth()}/${post.createdAt.getFullYear()}`}}
-<p class="text">{{post.text}}</p>
+    <div class="card card-1">
+      {{post.text}}
+      &emsp;
+    <i class="fas fa-trash" @click="deletePost(post._id)"></i>
+    </div>
+    <!--  -->
+     {{`${post.createdAt.getHours()}:${post.createdAt.getMinutes()}:${post.createdAt.getSeconds()}  ${post.createdAt.getDate()}/${post.createdAt.getMonth()+1}/${post.createdAt.getFullYear()}`}}
      </div>
    </div>
  </div>
@@ -50,6 +55,14 @@ export default {
     async deletePost(id) {
       await PostService.deletePost(id);
       this.posts = await PostService.getPosts();
+    },
+    empty() {
+      var x;
+      x = document.getElementById("create-text").value;
+      if (x == "") {
+        alert("Enter Something..");
+        return false;
+      }
     }
   }
 };
