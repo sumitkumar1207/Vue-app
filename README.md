@@ -1,21 +1,15 @@
-# Step1: Download or Clone the project.
+<h4>Download or clone the project.</h4>
 
-# Step2: NPM install (It will install all the dependencies of the backend.)
+<h4>NPM install (It will install all the dependencies of the backend.)</h4>
 
-# Step3: cd client and follow the following instructions-
+<h4>cd client and follow the following instructions-</h4>
 
 # client
-
-# Step4:
-
 ## Project setup
 
 ```
 npm install
 ```
-
-# Step4:
-
 ### Compiles and hot-reloads for development
 
 ```
@@ -41,14 +35,14 @@ npm run lint
 ```
 
 # Snaps of the App. 
-<h1>Loading All the posts of the app</h1>.<br/>
+<h3>Loading All the posts of the app</h3>.<br/>
 <img src="./client/snaps/1.JPG"><br/>
 
-<h1>A little bit CSS helps app to look good.</h1><br/>
+<h3>A little bit CSS helps app to look good.</h3><br/>
 <img src="./client/snaps/2.JPG"><br/>
 
-<h1>When user click on the delete icon. It wil remove from the list as well as from the DB.<br/>
+<h3>When user click on the delete icon. It wil remove from the list as well as from the DB.</h3><br/>
 <img src="./client/snaps/3.JPG"><br/>
 
 # Notice
-I have ignored my <strong>config/keys.js</strong> So you can add your own DB for storing the post.
+I have ignored my <strong>config/keys.js</strong> So you can add your own DB for storing the posts.
