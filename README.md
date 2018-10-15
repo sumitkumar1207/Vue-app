@@ -41,14 +41,14 @@ npm run lint
 ```
 
 # Snaps of the App. 
-1.<br/>
+1.
 <h1>Loading All the posts of the app</h1>.<br/>
 <img src="./client/snaps/1.JPG"><br/>
 
-2.<br/>
+2.
 <h1>A little bit CSS helps app to look good.</h1><br/>
 <img src="./client/snaps/2.JPG"><br/>
 
-3.<br/>
+3.
 <h1>When user click on the delete icon. It wil remove from the list as well as from the DB.<br/>
 <img src="./client/snaps/3.JPG"><br/>
